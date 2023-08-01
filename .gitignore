@@ -129,10 +129,16 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# ----------------------------------------------------------------
+# Ignore Rust output
+# ----------------------------------------------------------------
+# Generated files
+/target/
 
 
+# ----------------------------------------------------------------
 # JetBrains ignores for IDEA-based IDEs
-
+# ----------------------------------------------------------------
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
