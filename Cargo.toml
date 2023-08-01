@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "cpu-count",
+]
+
+[profile.release]
+lto = true
