@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "cpu-count",
+    "allbooks"
 ]
 
 [profile.release]
