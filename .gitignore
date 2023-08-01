@@ -135,6 +135,8 @@ dist
 # Generated files
 /target/
 
+# Ignore Cargo.lock file since this is not an end-product
+Cargo.lock
 
 # ----------------------------------------------------------------
 # JetBrains ignores for IDEA-based IDEs
